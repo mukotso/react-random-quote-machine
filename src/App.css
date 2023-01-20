@@ -1,38 +1,44 @@
-.App {
+#quote-box{
+  alignment: center;
+  background-color: white;
+  max-width: 60%;
+  margin-left:20%;
+  padding:50px 20px;
+  border-radius: 20px;
+  margin-top:10%;
+}
+
+#quote-box:hover{
+  background-color: #bed3f2;
+}
+p{
   text-align: center;
+  font-size:34px;
+  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+}
+#author{
+  text-align: end;
+  font-family: "Comic Sans MS";
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#new-quote{
+  float:right;
+  background-color: coral;
+  padding: 15px 30px;
+  border-radius: 10px;
+  margin-bottom:10%;
+  border:none;
+  font-size:20px;
+  color:white;
+}
+#new-quote:hover{
+  background-color: #0062cc;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#tweet-quote{
+  text-align: start;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body{
+  background-color: coral;
 }
